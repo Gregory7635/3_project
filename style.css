@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    background-color: rgb(42,44,47);
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    color: white;
+}
+a:hover{
+opacity: 0.5;
+}
+.flexbetween{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 28px;
+    margin-right: 28px;
+margin-bottom: 132px;
+
+}
+.whiteword1{
+    margin-right: 10px;
+    font-size: 24px;
+    color: white;
+    margin-top:15px
+}
+.lead__container{
+    max-width: 720px;
+    max-height: 200px;
+    text-align: center;
+margin-bottom: 32px;
+}
+.lead__containersub{
+    max-width: 640px;
+    max-height: 72px;
+    text-align: center;
+margin-bottom: 64px;
+
+}
+.lead{
+    display: flex;                
+  flex-direction: column; 
+  align-items: center;      
+  justify-content: center;      
+}
+.lead__title{
+    margin-right: 10px;
+    font-size: 100px;
+    margin-top:15px;
+    font-weight: 700;
+}
+.lead__subtitle{
+    margin-right: 10px;
+    font-size: 36px;
+    margin-top:15px;
+}
+.lead__p{
+    max-width: 200px;
+    max-height: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: -793px;
+}
+
+.intro{
+    width: 690px ;
+    height: 429px;
+    margin-left: 18%;
+}
+
+.intro__title{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.text {  
+    white-space: pre-wrap; /* Чтобы сохранить пробелы и разбить текст на строки */  
+    font-weight: 700;
+}  
+.parent{
+    margin-bottom: 100px;
+}
+.photo-grid{
+    margin: 0 auto; /* Центрирование по горизонтали */  
+    max-width:  1250px;
+    max-height: 671px;
+display: grid;
+gap: 16px;
+grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+}
+
+.plases{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin-left: 18%;
+}
+.plase{
+    display:flex;
+justify-content: space-between;
+margin-bottom: 100px;
+}
+.title{
+font-size: 64px;
+font-weight: 700;
+}
+.sp{
+    margin-right: 40px;
+}
+.website{
+margin-top: 125px;
+margin-bottom: 20px;
+}
+.url-heading{
+        color: white; 
+        text-decoration: none;
+        font-style: italic;
+}
+.link{
+  color:  rgba(170, 170, 170, 1);
+  font-size: 12px
+}
+.paragraph{
+    padding-top: 6px;
+  overflow-wrap: break-word;
+  text-align: justify; /* Для выравнивания текста по ширине */
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .parent{
+    margin-bottom: 100%;
+    }
+    .paragraph{
+        font-size: 0.9rem; /* Уменьшаем размер текста на маленьких экранах */
+    padding: 0.3rem; /* Уменьшаем отступы */
+  }
+    
+}
